@@ -15,9 +15,9 @@
     <link rel="icon" type="image/png" href="images/icon.png" />
   </head>
 
-  <body>
-    <div>
-      Hello World
+  <body ng-app="whackacat" ng-controller='game'>
+    <div ng-repeat="entry in scores">
+      <div>Name:{{entry.name}} Score:{{entry.score}}</div>
     </div>
   </body>
 

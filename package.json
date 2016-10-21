@@ -1,0 +1,22 @@
+{
+  "name": "whackacat",
+  "version": "1.0.0",
+  "description": "You whack cats. It's fun.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodejs server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zachanator070/whackacat.git"
+  },
+  "keywords": [
+    "whatckacat"
+  ],
+  "author": "Zach and Jeff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zachanator070/whackacat/issues"
+  },
+  "homepage": "https://github.com/zachanator070/whackacat#readme"
+}

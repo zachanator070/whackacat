@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/zachanator070/whackacat/issues"
   },
-  "homepage": "https://github.com/zachanator070/whackacat#readme"
+  "homepage": "https://github.com/zachanator070/whackacat#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
 }

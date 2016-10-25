@@ -30,6 +30,9 @@ h1.title{
 body{
   background-color: black;
   color: white;
+  background-image: url('../images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 div.game{

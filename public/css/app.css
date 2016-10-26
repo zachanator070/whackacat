@@ -1,7 +1,8 @@
 
 @font-face {
   font-family: duck;
-  src: url("discoduckv2i.ttf");
+/*  src: url("discoduckv2i.ttf"); */
+  src: url("HelloWhackAMole.ttf");
 }
 
 h1.title{

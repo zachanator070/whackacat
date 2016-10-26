@@ -134,3 +134,8 @@ div#cat6{
   padding-top: 200px;
 
 }
+
+#scores{
+	background-color: #000000;
+	border: 1px solid #ffffff;
+}

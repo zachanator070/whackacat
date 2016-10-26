@@ -71,9 +71,8 @@ function spawn(){
   var scope = angular.element($(".game")).scope();
   if(scope.score > scoreInterval){
     scoreInterval += 25;
-    spawnInterval -= .1;
-    if(spawnInterval <= 0){
-      spawnInterval = .1;
+    if(spawnInterval > .1 ){
+      spawnInterval -= .1;
     }
   }
 

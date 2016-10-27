@@ -42,9 +42,19 @@
             <div class='gameOver'>
               <h2>Game Over</h2>
               <form ng-submit="postHighscore()">
-                Score:{{score}}<br>
+                Score: {{score}}<br>
                 Name:<input ng-model='name' type='text'/>
                 <input value='Submit' type='submit'/>
+                <div class='row'>
+                  <div class='col-md-2'></div>
+                  <div class='col-md-8'>
+                    <h1>High Scores</h1>
+                    <div ng-repeat="entry in scores | orderBy:'score':true" id='scores'>
+                      <div>Name: {{entry.name}} Score: {{entry.score}}</div><br>
+                    </div>
+                  </div>
+                  <div class='col-md-2'></div>
+                </div>
               </form>
             </div>
             <div id='bottom'></div>
@@ -53,16 +63,6 @@
         <div class='col-md-2'></div>
       </div>
 
-      <div class='row' id='scores'>
-        <div class='col-md-2'></div>
-        <div class='col-md-8'>
-          <h1>High Scores</h1>
-          <div ng-repeat="entry in scores | orderBy:'score':true">
-            <div>Name: {{entry.name}} Score: {{entry.score}}</div><br>
-          </div>
-        </div>
-        <div class='col-md-2'></div>
-      </div>
 
     </div>
   </body>

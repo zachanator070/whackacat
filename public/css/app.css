@@ -42,8 +42,6 @@ div.game{
   height: 575px;
   position: relative;
   top:0px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 div#top{
@@ -136,6 +134,9 @@ div#cat6{
 }
 
 #scores{
+	max-height: 150px;
+	overflow-y: auto;
+	color: white;
 	background-color: #000000;
 	border: 1px solid #ffffff;
 }

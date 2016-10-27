@@ -133,10 +133,13 @@ div#cat6{
 
 }
 
+#scoreboard{
+	color: white;
+	background-color: black;
+	border: 1px solid #ffffff;
+}
+
 #scores{
 	max-height: 150px;
 	overflow-y: auto;
-	color: white;
-	background-color: #000000;
-	border: 1px solid #ffffff;
 }

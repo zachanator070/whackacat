@@ -47,7 +47,7 @@
                 <input value='Submit' type='submit'/>
                 <div class='row'>
                   <div class='col-md-2'></div>
-                  <div class='col-md-8'>
+                  <div class='col-md-8' id='scoreboard'>
                     <h1>High Scores</h1>
                     <div ng-repeat="entry in scores | orderBy:'score':true" id='scores'>
                       <div>Name: {{entry.name}} Score: {{entry.score}}</div><br>

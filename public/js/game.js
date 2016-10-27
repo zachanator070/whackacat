@@ -8,6 +8,8 @@ worldMusic.addEventListener('ended', function() {
 var incorrect = 0;
 var max_incorrect = 12;
 
+var playWhack = true;
+
 $(document).ready(function(){
 
   $(".cat").click(function(){
@@ -22,7 +24,13 @@ $(document).ready(function(){
           scope.score++;
       });
     }
+  });
 
+  $('.game').click(function(){
+    if(playWhack){
+      var whack = new Audio('../sounds/whack.mp3');
+      whack.play();
+    }
   });
 
   $("#bottom").click(function(){
@@ -34,6 +42,8 @@ $(document).ready(function(){
       var laugh = new Audio("../sounds/laugh.wav");
       laugh.play();
       $(".gameOver").css({"z-index":"3"});
+      playWhack = false;
+      $(".game").css({"cursor":"auto"});
     }
   });
 

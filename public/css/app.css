@@ -8,6 +8,8 @@
 h1.title{
   font-family: duck;
   color:fuchsia;;
+  font-size: 71px;
+  text-align: center;
 }
 
 #score{
@@ -137,6 +139,9 @@ div#cat6{
 	color: white;
 	background-color: black;
 	border: 1px solid #ffffff;
+  overflow: auto;
+  margin-top: 10px;
+  height: 200px;
 }
 
 #scores{

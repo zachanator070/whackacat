@@ -44,6 +44,7 @@ div.game{
   height: 575px;
   position: relative;
   top:0px;
+  cursor: url('../images/hammer.png'), auto;
 }
 
 div#top{

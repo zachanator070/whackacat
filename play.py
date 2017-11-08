@@ -5,7 +5,7 @@
 from selenium import webdriver
 
 driver = webdriver.Firefox()
-driver.get("http://aws.thezachcave.com")
+driver.get("https://whackacat.thezachcave.com")
 
 cats = driver.find_elements_by_class_name("cat")
 
